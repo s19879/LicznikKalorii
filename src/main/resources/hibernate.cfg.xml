@@ -14,12 +14,12 @@
 
         <property name="hbm2ddl.auto">update</property>
 
-        <mapping class="priv.calloriescounter.nodirect.entities.Product" />
-        <mapping class="priv.calloriescounter.nodirect.entities.LiquidProduct" />
-        <mapping class="priv.calloriescounter.nodirect.entities.SolidProduct" />
-        <mapping class="priv.calloriescounter.nodirect.entities.Meal" />
-        <mapping class="priv.calloriescounter.nodirect.entities.MealProduct" />
-        <mapping class="priv.calloriescounter.nodirect.entities.NutritionalValues" />
+        <mapping class="priv.calloriescounter.indirect.entities.Product" />
+        <mapping class="priv.calloriescounter.indirect.entities.LiquidProduct" />
+        <mapping class="priv.calloriescounter.indirect.entities.SolidProduct" />
+        <mapping class="priv.calloriescounter.indirect.entities.Meal" />
+        <mapping class="priv.calloriescounter.indirect.entities.MealProduct" />
+        <mapping class="priv.calloriescounter.indirect.entities.NutritionalValues" />
 
     </session-factory>
 </hibernate-configuration>
